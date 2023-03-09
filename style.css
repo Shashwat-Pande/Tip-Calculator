@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+body{
+    height: 100vh;
+    width: 100%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(245, 237, 223);
+}
+
+h1{
+    text-align: center;
+    padding: 8px;
+    background: rgb(0, 29, 56);
+    color: white;
+}
+
+form{
+    height: 400px;
+    width: 400px;
+    display: flex;
+    flex-direction: column;
+    background-color: white;
+}
+
+#billAmount, #numberOfPeople{
+    margin: 20px 0px 4px 4px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+label{
+    margin: 20px 0px 4px 4px;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+#num, #num2, #review{
+    padding: 4px 4px;
+    font-size: 14px;
+    margin: 0px 4px 0px 4px;
+}
+
+#button{
+    margin: 20px 4px 0px 4px;
+    padding: 4px 4px;
+    font-size: 18px;
+    outline: none;
+    background: rgb(112, 214, 44);
+    color: white;
+    border: none;
+}
+
+#button:hover{
+    cursor: pointer;
+}
+
+#userInput{
+    margin: 20px 0px 0px 4px
+}
